@@ -2,7 +2,7 @@
 
 import { Nav } from "./components/Nav"
 import {Works} from"./components/Works"
-import { Siri } from "./components/siri"
+import { Siri } from "./components/Siri"
 import {About}  from "./components/About"
 import {Footer} from "./components/Footer"
 import {Tech} from "./components/Tech"
