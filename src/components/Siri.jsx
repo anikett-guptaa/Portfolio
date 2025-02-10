@@ -11,7 +11,7 @@ import java from "../assets/java.png";
 import mysql from "../assets/mysql.png";
 
 
-import { Typewrite } from "../components/typewrite"
+import { Typewrite } from "../components/Typewrite"
 
 const move = {
     hidden: {  },
