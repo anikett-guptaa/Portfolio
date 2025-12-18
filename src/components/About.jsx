@@ -82,10 +82,11 @@ export function About() {
                     </div>
 
                     <p className="text-sm sm:w-3/5 w-auto sm:text-base">
-                      I’m pursuing a B.Tech in AI and Machine Learning, building
-                      expertise in core computer science and specialized fields
-                      like AI, machine learning, and data science to tackle
-                      industry challenges
+                      I completed my Matriculation (Class 10) under the CBSE
+                      curriculum, where I built a strong foundation in
+                      Mathematics, Science, History and logical reasoning, which
+                      helped develop my logical thinking, analytical skills, and
+                      academic discipline.
                     </p>
                   </div>
                 </div>
