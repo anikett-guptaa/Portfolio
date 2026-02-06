@@ -91,7 +91,7 @@ export function Footer() {
               About
             </Link>
           </div>
-          <div className="flex">@2025 Aniket Gupta. All rights reserved</div>
+          <div className="flex">@2026 Aniket Gupta. All rights reserved</div>
         </div>
       </div>
     </footer>

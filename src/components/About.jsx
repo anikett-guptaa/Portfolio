@@ -31,7 +31,7 @@ export function About() {
                         Birla Institute of Techonlogy, Mesra
                       </h1>
                       <h1 className="italic text-xs  text-[#d9fbfb]">
-                        (2024 to 2027)
+                        (2023 to 2027)
                       </h1>
                     </div>
 
