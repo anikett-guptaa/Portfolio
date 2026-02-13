@@ -5,6 +5,8 @@ import predictor from "../assets/predictor.png";
 import inksphere from "../assets/inksphere.png";
 import coreapi from "../assets/coreapi.png";
 import aidoctor from "../assets/aidoctor.png";
+import todo from "../assets/todo.png";
+import esollect from "../assets/esollect.png";
 
 export function Works() {
   return (
@@ -105,7 +107,7 @@ export function Works() {
           <div className="w-4 h-4 rounded-full border-[3px] border-[#f59e0b] absolute left-1/2 -translate-x-1/2 bg-[#111] z-10 hover:scale-110 ease-in-out duration-100 hidden sm:block"></div>
           <div className="h-[1px] left-1/4 right-1/2 bg-[#f59e0b] shadow-[0_0_40px_5px_#f59e0b] absolute top-1/2 hidden sm:block"></div>
           <a
-            href="#"
+            href="https://github.com/anikett-guptaa"
             className="flex w-full relative justify-center sm:justify-start"
           >
             <div className="flex flex-col items-center relative group sm:hover:scale-105 ease-in-out duration-200">
@@ -115,7 +117,7 @@ export function Works() {
                 alt="img"
               />
               <span className="flex group-hover:-top-14 ease-jump duration-200 bg-[#f59e0b] sm:absolute left-1/2 sm:-translate-x-1/2 top-5 px-2 py-1 text-sm sm:text-base mt-2 rounded w-max items-center gap-1 after:hidden sm:after:block after:w-4 after:h-4 after:bg-inherit after:absolute after:left-1/2 after:-translate-x-1/2 after:rotate-45 after:-bottom-2">
-                CoreAPI
+                View Code
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -483,63 +485,58 @@ export function Works() {
 
         <div className="flex flex-col sm:flex-row gap-4 mt-12 sm:gap-[80px] items-center sm:mt-20 relative">
           <div className="order-2 sm:order-1 w-full">
-            <h3 className="text-[#84cc16] font-bold text-2xl md:text-4xl">
-              PrepMate
+            <h3 className="text-[#fb7185] font-bold text-2xl md:text-4xl">
+              Todo App
             </h3>
-            <span className="text-[#84cc16] text-base md:text-lg">
-              (Job Preparation & Interview Platform)
+            <span className="text-[#fb7185] text-base md:text-lg">
+              (Task Management Application)
             </span>
             <p className="text-justify text-sm md:text-base mt-2">
-              PrepMate is a job preparation platform focused on helping
-              candidates get interview-ready through real-world practice. The
-              platform is designed to support AI-powered voice-based mock
-              interviews, interview performance analytics, resume building, and
-              skill-based quizzes. PrepMate aims to simulate real interview
-              scenarios and provide actionable feedback to help users improve
-              communication, confidence, and technical readiness.
+              Developed a simple and interactive Todo application to practice
+              state management and user interactions in React. The app allows
+              users to add, manage, and track daily tasks with a clean and
+              responsive interface, focusing on component structure and
+              real-time updates.
             </p>
             <ul className="flex flex-wrap gap-2 mt-2">
-              <li className="border rounded-[50px] border-[#84cc16] px-[10px] py-[5px] text-sm md:text-base">
-                #nextjs
+              <li className="border rounded-[50px] border-[#fb7185] px-[10px] py-[5px] text-sm md:text-base">
+                #react
               </li>
-              <li className="border rounded-[50px] border-[#84cc16] px-[10px] py-[5px] text-sm md:text-base">
-                #Vapi
+              <li className="border rounded-[50px] border-[#fb7185] px-[10px] py-[5px] text-sm md:text-base">
+                #hooks
               </li>
-              <li className="border rounded-[50px] border-[#84cc16] px-[10px] py-[5px] text-sm md:text-base">
-                #voiceai
+              <li className="border rounded-[50px] border-[#fb7185] px-[10px] py-[5px] text-sm md:text-base">
+                #state-management
               </li>
-              <li className="border rounded-[50px] border-[#84cc16] px-[10px] py-[5px] text-sm md:text-base">
-                #interviewprep
+              <li className="border rounded-[50px] border-[#fb7185] px-[10px] py-[5px] text-sm md:text-base">
+                #crud-operations
               </li>
-              <li className="border rounded-[50px] border-[#84cc16] px-[10px] py-[5px] text-sm md:text-base">
-                #analytics
+              <li className="border rounded-[50px] border-[#fb7185] px-[10px] py-[5px] text-sm md:text-base">
+                #component-architecture
               </li>
-              <li className="border rounded-[50px] border-[#84cc16] px-[10px] py-[5px] text-sm md:text-base">
-                #resume
+              <li className="border rounded-[50px] border-[#fb7185] px-[10px] py-[5px] text-sm md:text-base">
+                #local-storage
               </li>
-              <li className="border rounded-[50px] border-[#84cc16] px-[10px] py-[5px] text-sm md:text-base">
-                #quiz
-              </li>
-              <li className="border rounded-[50px] border-[#84cc16] px-[10px] py-[5px] text-sm md:text-base">
-                #careertechnology
+              <li className="border rounded-[50px] border-[#fb7185] px-[10px] py-[5px] text-sm md:text-base">
+                #responsive-ui
               </li>
             </ul>
           </div>
-          <div className="h-[1px] left-1/2 right-1/4  bg-[#84cc16] shadow-[0_0_40px_5px_#84cc16] absolute top-1/2 hidden sm:block"></div>
-          <div className="w-4 h-4 rounded-full border-[3px] border-[#84cc16] absolute left-1/2 -translate-x-1/2 bg-[#111] z-10 hover:scale-110 ease-in-out duration-100 hidden sm:block"></div>
+          <div className="h-[1px] left-1/2 right-1/4  bg-[#fb7185] shadow-[0_0_40px_5px_#fb7185] absolute top-1/2 hidden sm:block"></div>
+          <div className="w-4 h-4 rounded-full border-[3px] border-[#fb7185] absolute left-1/2 -translate-x-1/2 bg-[#111] z-10 hover:scale-110 ease-in-out duration-100 hidden sm:block"></div>
           <a
-            href="https://prepmate-aniket.vercel.app/"
+            href="https://github.com/anikett-guptaa"
             target="_blank"
             className="order-1 sm:order-2 flex w-full relative justify-center sm:justify-start"
           >
             <div className="flex flex-col items-center relative group sm:hover:scale-105 ease-in-out duration-200 sm:ml-auto">
               <img
-                className="max-w-[500px] w-full relative z-10 drop-shadow-[0_0px_60px_rgba(132,204,22,0.6)]"
-                src={prepmate}
+                className="max-w-[500px] w-full relative z-10 drop-shadow-[0_0px_60px_rgba(251,113,133,0.6)]"
+                src={todo}
                 alt=""
               />
-              <span className="flex group-hover:-top-14 ease-jump duration-200 text-black bg-[#84cc16] sm:absolute left-1/2 sm:-translate-x-1/2 top-5 px-2 py-1 text-sm sm:text-base mt-2 rounded w-max items-center gap-1 after:hidden sm:after:block after:w-4 after:h-4 after:bg-inherit after:absolute after:left-1/2 after:-translate-x-1/2 after:rotate-45 after:-bottom-2">
-                PrepMate
+              <span className="flex group-hover:-top-14 ease-jump duration-200 text-black bg-[#fb7185] sm:absolute left-1/2 sm:-translate-x-1/2 top-5 px-2 py-1 text-sm sm:text-base mt-2 rounded w-max items-center gap-1 after:hidden sm:after:block after:w-4 after:h-4 after:bg-inherit after:absolute after:left-1/2 after:-translate-x-1/2 after:rotate-45 after:-bottom-2">
+                View Code
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -565,17 +562,17 @@ export function Works() {
           <div className="w-4 h-4 rounded-full border-[3px] border-[#3b82f6] absolute left-1/2 -translate-x-1/2 bg-[#111] z-10 hover:scale-110 ease-in-out duration-100 hidden sm:block"></div>
           <div className="h-[1px] left-1/4 right-1/2 bg-[#3b82f6] shadow-[0_0_40px_5px_#3b82f6] absolute top-1/2 hidden sm:block"></div>
           <a
-            href="#"
+            href="https://github.com/anikett-guptaa"
             className="flex w-full relative justify-center sm:justify-start"
           >
             <div className="flex flex-col items-center relative group sm:hover:scale-105 ease-in-out duration-200">
               <img
                 className="max-w-[450px] w-full mr-auto relative z-10 drop-shadow-[0_0px_60px_rgba(59,130,246,0.6)]"
-                src={portfolio}
+                src={esollect}
                 alt="img"
               />
               <span className="flex group-hover:-top-14 ease-jump duration-200 bg-[#3b82f6] sm:absolute left-1/2 sm:-translate-x-1/2 top-5 px-2 py-1 text-sm sm:text-base mt-2 rounded w-max items-center gap-1 after:hidden sm:after:block after:w-4 after:h-4 after:bg-inherit after:absolute after:left-1/2 after:-translate-x-1/2 after:rotate-45 after:-bottom-2">
-                Not Hosted
+                View Code
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
