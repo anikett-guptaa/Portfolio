@@ -483,6 +483,154 @@ export function Works() {
 
         <div className="flex flex-col sm:flex-row gap-4 mt-12 sm:gap-[80px] items-center sm:mt-20 relative">
           <div className="order-2 sm:order-1 w-full">
+            <h3 className="text-[#84cc16] font-bold text-2xl md:text-4xl">
+              PrepMate
+            </h3>
+            <span className="text-[#84cc16] text-base md:text-lg">
+              (Job Preparation & Interview Platform)
+            </span>
+            <p className="text-justify text-sm md:text-base mt-2">
+              PrepMate is a job preparation platform focused on helping
+              candidates get interview-ready through real-world practice. The
+              platform is designed to support AI-powered voice-based mock
+              interviews, interview performance analytics, resume building, and
+              skill-based quizzes. PrepMate aims to simulate real interview
+              scenarios and provide actionable feedback to help users improve
+              communication, confidence, and technical readiness.
+            </p>
+            <ul className="flex flex-wrap gap-2 mt-2">
+              <li className="border rounded-[50px] border-[#84cc16] px-[10px] py-[5px] text-sm md:text-base">
+                #nextjs
+              </li>
+              <li className="border rounded-[50px] border-[#84cc16] px-[10px] py-[5px] text-sm md:text-base">
+                #Vapi
+              </li>
+              <li className="border rounded-[50px] border-[#84cc16] px-[10px] py-[5px] text-sm md:text-base">
+                #voiceai
+              </li>
+              <li className="border rounded-[50px] border-[#84cc16] px-[10px] py-[5px] text-sm md:text-base">
+                #interviewprep
+              </li>
+              <li className="border rounded-[50px] border-[#84cc16] px-[10px] py-[5px] text-sm md:text-base">
+                #analytics
+              </li>
+              <li className="border rounded-[50px] border-[#84cc16] px-[10px] py-[5px] text-sm md:text-base">
+                #resume
+              </li>
+              <li className="border rounded-[50px] border-[#84cc16] px-[10px] py-[5px] text-sm md:text-base">
+                #quiz
+              </li>
+              <li className="border rounded-[50px] border-[#84cc16] px-[10px] py-[5px] text-sm md:text-base">
+                #careertechnology
+              </li>
+            </ul>
+          </div>
+          <div className="h-[1px] left-1/2 right-1/4  bg-[#84cc16] shadow-[0_0_40px_5px_#84cc16] absolute top-1/2 hidden sm:block"></div>
+          <div className="w-4 h-4 rounded-full border-[3px] border-[#84cc16] absolute left-1/2 -translate-x-1/2 bg-[#111] z-10 hover:scale-110 ease-in-out duration-100 hidden sm:block"></div>
+          <a
+            href="https://prepmate-aniket.vercel.app/"
+            target="_blank"
+            className="order-1 sm:order-2 flex w-full relative justify-center sm:justify-start"
+          >
+            <div className="flex flex-col items-center relative group sm:hover:scale-105 ease-in-out duration-200 sm:ml-auto">
+              <img
+                className="max-w-[500px] w-full relative z-10 drop-shadow-[0_0px_60px_rgba(132,204,22,0.6)]"
+                src={prepmate}
+                alt=""
+              />
+              <span className="flex group-hover:-top-14 ease-jump duration-200 text-black bg-[#84cc16] sm:absolute left-1/2 sm:-translate-x-1/2 top-5 px-2 py-1 text-sm sm:text-base mt-2 rounded w-max items-center gap-1 after:hidden sm:after:block after:w-4 after:h-4 after:bg-inherit after:absolute after:left-1/2 after:-translate-x-1/2 after:rotate-45 after:-bottom-2">
+                PrepMate
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  className="feather feather-external-link"
+                >
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </span>
+            </div>
+          </a>
+        </div>
+
+        <div className="flex flex-col sm:flex-row gap-4 mt-8 sm:gap-[80px] items-center sm:mt-20 relative">
+          <div className="w-4 h-4 rounded-full border-[3px] border-[#3b82f6] absolute left-1/2 -translate-x-1/2 bg-[#111] z-10 hover:scale-110 ease-in-out duration-100 hidden sm:block"></div>
+          <div className="h-[1px] left-1/4 right-1/2 bg-[#3b82f6] shadow-[0_0_40px_5px_#3b82f6] absolute top-1/2 hidden sm:block"></div>
+          <a
+            href="#"
+            className="flex w-full relative justify-center sm:justify-start"
+          >
+            <div className="flex flex-col items-center relative group sm:hover:scale-105 ease-in-out duration-200">
+              <img
+                className="max-w-[450px] w-full mr-auto relative z-10 drop-shadow-[0_0px_60px_rgba(59,130,246,0.6)]"
+                src={portfolio}
+                alt="img"
+              />
+              <span className="flex group-hover:-top-14 ease-jump duration-200 bg-[#3b82f6] sm:absolute left-1/2 sm:-translate-x-1/2 top-5 px-2 py-1 text-sm sm:text-base mt-2 rounded w-max items-center gap-1 after:hidden sm:after:block after:w-4 after:h-4 after:bg-inherit after:absolute after:left-1/2 after:-translate-x-1/2 after:rotate-45 after:-bottom-2">
+                Not Hosted
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  className="feather feather-external-link"
+                >
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </span>
+            </div>
+          </a>
+          <div className="w-full">
+            <h3 className="text-[#3b82f6] font-bold text-2xl md:text-4xl">
+              eSollect UI Clone
+            </h3>
+            <span className="text-[#3b82f6] text-base md:text-lg">
+              (Loan & Portfolio Management System)
+            </span>
+            <p className="text-justify text-sm md:text-base mt-2">
+              Recreated the eSollect dashboard interface as a frontend practice
+              project to strengthen skills in building structured layouts,
+              handling complex tables, and designing clean enterprise-style user
+              interfaces. Focused on responsive design, reusable components, and
+              accurate UI replication.
+            </p>
+            <ul className="flex flex-wrap gap-2 mt-2">
+              <li className="border rounded-[50px] border-[#3b82f6] px-[10px] py-[5px] text-sm md:text-base">
+                #react
+              </li>
+              <li className="border rounded-[50px] border-[#3b82f6] px-[10px] py-[5px] text-sm md:text-base">
+                #tailwind
+              </li>
+              <li className="border rounded-[50px] border-[#3b82f6] px-[10px] py-[5px] text-sm md:text-base">
+                #ui-clone
+              </li>
+              <li className="border rounded-[50px] border-[#3b82f6] px-[10px] py-[5px] text-sm md:text-base">
+                #responsive-design
+              </li>
+              <li className="border rounded-[50px] border-[#3b82f6] px-[10px] py-[5px] text-sm md:text-base">
+                #component-based
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="flex flex-col sm:flex-row gap-4 mt-12 sm:gap-[80px] items-center sm:mt-20 relative">
+          <div className="order-2 sm:order-1 w-full">
             <h3 className="text-[#ffe578] font-bold text-2xl md:text-4xl">
               Netflix Clone
             </h3>
